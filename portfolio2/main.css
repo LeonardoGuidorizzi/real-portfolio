@@ -1,0 +1,59 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(#210113, #120028, #2d0034)
+}
+html{
+    scroll-behavior: smooth;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.container-sessoes{
+    width: 100vw;
+    height: 100vh;
+}
+.apresentation-container{
+    display: flex;
+    text-align: center;
+ }
+ .ghost-photo{
+    margin-left: 500px;
+    border-radius: 100%;
+    height: 200px;
+    border: solid;
+ }
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.text-content{
+    font-size: large;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+}    
+.projects-container{
+    font-size: 60px;
+    font-family:'Press Start 2P', cursive ;
+    font-weight: lighter;
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+}
